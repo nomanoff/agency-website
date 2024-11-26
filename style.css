@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 .main{
@@ -9,35 +10,84 @@
     height: auto;
     max-width: 840px;
     padding: 40px;
-    font-family: Arial, sans-serif;
 }
 
 .main .logo{
     width: 230px;
     height: auto;
+    margin-bottom: 48px;
 }
 
 .main h1{
     font-size: 4.3em;
     font-weight: 800;
-    margin: 55px auto;
+    margin: 10px auto;
     font-style: normal;
 }
 
-.main .card{
+span{
+    color: darkblue;
+}
+
+section{
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 50px;
+    border: 2px solid #000;
+    margin-bottom: 110px;
+    padding: 0 0px;
+}
+
+section .right.card{
+    display: flex;
+    justify-content: right;
+}
+
+section .card{
     display: flex;
     width: 50%;
     height: auto;
     max-width: 600px;
-    /* align-items: center; */
+    padding: 0 0 0 35px;
+    border: 2px solid #000;
 }
 
-.main .card img{
-    width: 275px;
+section .card img{
+    width: 350px;
     height: 195px;
     padding: 10px;
 }
 
-.main .card h2{
+section .card .content{
+    display: grid;
+    width: 50%;
+    height: auto;
+    margin: 25px;
+    margin-left: 35px;
+}
 
+section .card .content h2{
+   font-weight: 900;
+   font-size: 1.5em;
+   font-style: normal;
+   margin-bottom: 25px;
+}
+
+section .card .content p{
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+    border: 2px solid #000;
+}
+
+footer p{
+    display: flex;
+    justify-content: end;
 }
