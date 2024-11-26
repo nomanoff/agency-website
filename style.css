@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    max-width: 840px;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.main .logo{
+    width: 230px;
+    height: auto;
+}
+
+.main h1{
+    font-size: 4.3em;
+    font-weight: 800;
+    margin: 55px auto;
+    font-style: normal;
+}
+
+.main .card{
+    display: flex;
+    width: 50%;
+    height: auto;
+    max-width: 600px;
+    /* align-items: center; */
+}
+
+.main .card img{
+    width: 275px;
+    height: 195px;
+    padding: 10px;
+}
+
+.main .card h2{
+
+}
